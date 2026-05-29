@@ -23,7 +23,7 @@ A Machine Learning-based movie recommendation web application that suggests simi
   - NumPy  
   - Scikit-learn  
   - Streamlit  
-- **API:** TMDB (The Movie Database API)
+- **API:** OMDB (The Movie Database API)
 
 ---
 
