@@ -1,68 +1,47 @@
-# 🎬 Movie Recommender System
+# 🎬 Movie Recommendation System
 
-A Machine Learning-based movie recommendation web application that suggests similar movies based on content similarity. Built using Python and Streamlit, the system provides personalized movie recommendations along with movie posters through an interactive and user-friendly interface.
-
----
+A Machine Learning-based movie recommendation web application that suggests similar movies using content-based filtering techniques. The system recommends movies based on genres, cast, keywords, and movie descriptions through an interactive Streamlit interface.
 
 ## 🚀 Features
 
-- Recommend movies similar to the selected movie
-- Content-based recommendation system
-- Displays movie posters using TMDB API
-- Interactive and user-friendly interface
-- Fast recommendation generation
-- Clean and responsive UI
-
----
+* Recommend movies similar to a selected movie
+* Content-based recommendation system
+* Displays movie posters
+* Interactive and user-friendly interface
+* Fast recommendation generation
 
 ## 🛠️ Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- TMDB API
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Scikit-learn
+* TMDB API
 
----
+## 📊 Dataset
 
-## 📌 Project Overview
+TMDB 5000 Movie Dataset
 
-This project uses a content-based filtering approach to recommend movies based on similarity between movie metadata such as genres, cast, keywords, and overview.
+* 5000+ Movies
+* Genres, Cast, Crew, Keywords, and Overview data
 
-The recommendation system calculates similarity scores using cosine similarity and suggests movies that closely match the selected movie.
+## ⚙️ Methodology
 
----
+* Data Cleaning & Preprocessing
+* Feature Extraction
+* CountVectorizer
+* Cosine Similarity
 
-## ⚙️ Installation & Setup
+## 📈 Output
 
-### 1. Clone the Repository
+* Top 5 similar movie recommendations
+* Movie poster display
+* Real-time recommendation generation
 
-```bash
-git clone https://github.com/saatviknegi/Movies_Recommender_System.git
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
-cd Movies_Recommender_System
-```
-
-### 3. Install Dependencies
+## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 4. Run the Application
-
-```bash
 streamlit run app.py
 ```
-
----
-
-## 🌐 Live Demo
-
-🔗 [Click Here to Try the Application](https://movies-recommender-system-knssziwsemxwpkvdmy2bjk.streamlit.app/))
-
