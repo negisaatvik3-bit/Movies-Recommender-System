@@ -10,6 +10,17 @@ A Machine Learning-based movie recommendation web application that suggests simi
 * Interactive and user-friendly interface
 * Fast recommendation generation
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](images/movie_recommendation-system-homepage.png)
+
+### Recommendation Results
+
+![Recommendations](images/recommendation_1.png)
+![Recommendations](images/recommendation_2.png)
+
 ## 🛠️ Tech Stack
 
 * Python
